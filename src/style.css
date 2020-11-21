@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-brand {
+	margin-left: 0.4rem;
+	font-size: 2.5rem;
+	font-weight: 700;
+	letter-spacing: 0.1rem
+}
+
+.fixed-bottom {
+	margin: 0;
+  padding: 0;
+  z-index: 4;
+}
+.nav-item {
+	margin: 1rem auto;
+}
+
+.nav-link:focus {
+  background: #007bff;
+  border: none;
+}
+
+.nav-link:hover {
+  background: lightblue;
+  border: none;
+  color: black;
+  font-size: 0.8rem;
+}
+
+.nav-tabs {
+  padding: 0 6rem 5px ;
+  margin: 0 auto;
+  color: white;
+}
+
+
+.nav-tabs li a {
+  color: white
+}
+
+.nav-link {
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: black;
+}
+
+.right-pane {
+  color: white;
+  height: 79vh;
+	overflow: auto;
+  padding: 2rem;
+	text-transform: capitalize;
+	margin: 0!important;
+  background-color: black ;
+}
+
+.left {
+  padding: 0;
+}
+
+.list-item {
+	position: relative;
+	padding: 0.5rem;
+	font-weight: 600;
+}
+
+.list-item:hover {
+	background: lightblue;
+  color: black;
+	cursor: pointer;
+	padding-left: 1rem;
+}
+.left-pane {
+	margin: 1rem;
+	text-transform: capitalize;
+}
+ 
+.left-pane small {
+	font-weight: 700;
+	margin: 2rem 0!important;
+}
+
+.left-pane .lead {
+	margin-top: 0.3rem;
+}
+
+.col-md-6 {
+	padding: 0!important;
+}
+
+form, option {
+	text-transform: capitalize;
+}
+
+
+.icon-delete {
+	position: absolute;
+	right: 2rem;
+}
+
+.icon-edit {
+	position: absolute;
+	right: 3.6rem;
+}
+
+span .svg-inline--fa {
+	color: #007bff;
+}
+
+.show {
+	display: block!important;
+	opacity: 100;
+}
+
+.fade:not(.show) {
+	opacity: 100!important;
+}
+
+.title {
+  color: lightblue
+}
+
+.list {
+  padding-left: 10px
+}
+
+.list-item {
+  list-style-type: none!important;
+  margin-left: 10px;
+}
